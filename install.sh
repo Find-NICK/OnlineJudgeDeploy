@@ -1,4 +1,4 @@
 #!/bin/sh
 
 pip install docker-compose
-curl -sSL get.docker.com | sh
+curl -sSL https://get.daocloud.io/docker | sh
