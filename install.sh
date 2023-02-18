@@ -9,7 +9,7 @@ sudo apt-get install \
     lsb-release
 curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository \
-   "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/ \
+   "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian/ \
   $(lsb_release -cs) \
   stable"
 sudo apt-get install docker-ce docker-ce-cli containerd.io
